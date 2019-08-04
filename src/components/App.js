@@ -20,6 +20,38 @@ export default class App extends Component {
             tempLow={forecast[0].tempLow}
           />
         </div>
+        <div className='tuesday'>
+          <Card
+            day={forecast[1].day}
+            weatherURL={sunny}
+            tempHigh={forecast[1].tempHigh}
+            tempLow={forecast[1].tempLow}
+          />
+        </div>
+        <div className='wednesday'>
+          <Card
+            day={forecast[2].day}
+            weatherURL={rainy}
+            tempHigh={forecast[2].tempHigh}
+            tempLow={forecast[2].tempLow}
+          />
+        </div>
+        <div className='thursday'>
+          <Card
+            day={forecast[3].day}
+            weatherURL={cloudy}
+            tempHigh={forecast[3].tempHigh}
+            tempLow={forecast[3].tempLow}
+          />
+        </div>
+        <div className='friday'>
+          <Card
+            day={forecast[4].day}
+            weatherURL={snowy}
+            tempHigh={forecast[4].tempHigh}
+            tempLow={forecast[4].tempLow}
+          />
+        </div>
 
       </div>
     )
